@@ -1,0 +1,11 @@
+..........???
+Skip: sprintf("%c") with an integer that has no UTF-8 encoding
+Skip: sprintf("%c") with a UTF-16 surrogate
+Skip: what the string sprintf builds claims
+  Total: 13
+     OK: 10
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 3
+   Time: 0.0 seconds

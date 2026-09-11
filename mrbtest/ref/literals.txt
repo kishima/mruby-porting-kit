@@ -1,0 +1,9 @@
+.?..........
+Skip: Literals Numerical without Float => Float is defined
+  Total: 12
+     OK: 11
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 1
+   Time: 0.0 seconds

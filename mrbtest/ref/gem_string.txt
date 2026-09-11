@@ -1,0 +1,17 @@
+..........?.?.......?............................................??????..
+Skip: String#swapcase - Unicode
+Skip: String#swapcase! - a frozen receiver
+Skip: String#casecmp? - Unicode
+Skip: String#scrub default replacement (U+FFFD)
+Skip: String#scrub rejects malformed sequences
+Skip: String#scrub replaces each maximal subpart
+Skip: String#scrub with replacement string
+Skip: String#scrub raises on invalid replacement
+Skip: String#scrub with block
+  Total: 73
+     OK: 64
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 9
+   Time: 0.0 seconds

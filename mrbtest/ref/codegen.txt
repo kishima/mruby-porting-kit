@@ -1,0 +1,27 @@
+........sh: 1: dynamic: not found
+sh: 1: static: not found
+F......
+Fail: register window of calls (#3783)
+ - Assertion[18]
+    NotImplementedError expected but nothing was raised.
+ - Assertion[19]
+    NotImplementedError expected but nothing was raised.
+ - Assertion[20]
+    NoMethodError expected but nothing was raised.
+ - Assertion[21]
+    NoMethodError exception expected, not
+    Class: <ArgumentError>
+    Message: <wrong number of arguments (given 3, expected 1..2)>
+ - Assertion[22]
+    NoMethodError expected but nothing was raised.
+ - Assertion[23]
+    NoMethodError exception expected, not
+    Class: <ArgumentError>
+    Message: <wrong number of arguments (given 3, expected 1..2)>
+  Total: 15
+     OK: 14
+     KO: 1
+  Crash: 0
+Warning: 0
+   Skip: 0
+   Time: 0.15 seconds

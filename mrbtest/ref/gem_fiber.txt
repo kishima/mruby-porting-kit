@@ -1,0 +1,8 @@
+.....................
+  Total: 21
+     OK: 21
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 0
+   Time: 0.02 seconds

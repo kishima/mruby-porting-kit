@@ -1,0 +1,21 @@
+...........................................................................X.......
+NoMethodError: mrb_ary_unshift respects a frozen receiver => undefined method '__unshift_from_c' for Array
+ - Assertion[1]
+    FrozenError exception expected, not
+    Class: <NoMethodError>
+    Message: <undefined method '__unshift_from_c' for Array>
+ - Assertion[3]
+    FrozenError exception expected, not
+    Class: <NoMethodError>
+    Message: <undefined method '__unshift_from_c' for Array>
+backtrace:
+        /tmp/run.rb:1459
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:1441
+  Total: 83
+     OK: 82
+     KO: 0
+  Crash: 1
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

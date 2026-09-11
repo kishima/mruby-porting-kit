@@ -1,0 +1,38 @@
+FF................................sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: Syntax error: EOF in backquote substitution
+sh: 1: test: sym: unexpected operator
+F....................................
+Fail: __FILE__
+ - Assertion[1]
+    Expected: "syntax.rb"
+      Actual: "mp/run.rb"
+Fail: __LINE__
+ - Assertion[1]
+    Expected: 7
+      Actual: 515
+Fail: External command execution.
+ - Assertion[1]
+    Expected: ["test", "test dynamic `"]
+      Actual: []
+ - Assertion[2]
+    Expected: "test"
+      Actual: ""
+ - Assertion[3]
+    Expected: ["test", "test dynamic `", "test"]
+      Actual: []
+ - Assertion[4]
+    Expected: "test dynamic `"
+      Actual: ""
+ - Assertion[5]
+    Expected: ["test", "test dynamic `", "test", "test dynamic `"]
+      Actual: []
+ - Assertion[6]
+    Expected: "test sym test sym test"
+      Actual: ""
+  Total: 71
+     OK: 68
+     KO: 3
+  Crash: 0
+Warning: 0
+   Skip: 0
+   Time: 0.39 seconds

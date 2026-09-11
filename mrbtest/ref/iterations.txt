@@ -1,0 +1,8 @@
+....
+  Total: 4
+     OK: 4
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

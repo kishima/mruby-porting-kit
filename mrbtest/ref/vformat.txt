@@ -1,0 +1,13 @@
+X
+NameError: mrb_vformat => uninitialized constant TestVFormat
+backtrace:
+        /tmp/run.rb:516
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:515
+  Total: 1
+     OK: 0
+     KO: 0
+  Crash: 1
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

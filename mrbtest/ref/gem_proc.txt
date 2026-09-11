@@ -1,0 +1,18 @@
+..........XX
+NameError: mrb_proc_new_cfunc_with_env => uninitialized constant ProcExtTest
+backtrace:
+        /tmp/run.rb:625
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:624
+NameError: mrb_cfunc_env_get => uninitialized constant ProcExtTest
+backtrace:
+        /tmp/run.rb:635
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:634
+  Total: 12
+     OK: 10
+     KO: 0
+  Crash: 2
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

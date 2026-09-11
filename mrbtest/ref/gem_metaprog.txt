@@ -1,0 +1,13 @@
+.....................X...........
+NameError: Module#instance_methods lists a method that is unimplemented here => uninitialized constant TestNotImplement
+backtrace:
+        /tmp/run.rb:848
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:845
+  Total: 33
+     OK: 32
+     KO: 0
+  Crash: 1
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

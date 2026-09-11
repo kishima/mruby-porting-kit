@@ -1,0 +1,26 @@
+XXXX
+NoMethodError: Call Fiber#resume nested with C => undefined method 'resume_by_c_func' for Fiber
+backtrace:
+        /tmp/run.rb:534
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:533
+NoMethodError: Call Fiber#resume and Fiber.yield mixed with C. => undefined method 'resume_by_c_func' for Fiber
+backtrace:
+        /tmp/run.rb:547
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:546
+NoMethodError: Call Fiber#resume and Fiber.yield mixed with C and raising exceptions => undefined method 'resume_by_c_method' for Fiber
+backtrace:
+        /tmp/run.rb:599
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:590
+NoMethodError: Call Fiber#transfer with C => undefined method 'resume_by_c_method' for Fiber
+backtrace:
+        /tmp/run.rb:647
+  Total: 4
+     OK: 0
+     KO: 0
+  Crash: 4
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

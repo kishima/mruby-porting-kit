@@ -1,0 +1,33 @@
+..........................XXXFX......
+NameError: Kernel#respond_to? with an unimplemented method => uninitialized constant TestNotImplement
+backtrace:
+        /tmp/run.rb:931
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:930
+NameError: Kernel#respond_to? skips respond_to_missing? for an unimplemented method => uninitialized constant TestNotImplement
+backtrace:
+        /tmp/run.rb:945
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:944
+NameError: an unimplemented method can be overridden, aliased and undefined => uninitialized constant TestNotImplement
+backtrace:
+        /tmp/run.rb:957
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:956
+Fail: an unimplemented method reports itself by name
+ - Assertion[1]
+    NotImplementedError exception expected, not
+    Class: <NameError>
+    Message: <uninitialized constant TestNotImplement>
+NameError: mrb_notimplement() raises where there is no method name to report => uninitialized constant TestNotImplement
+backtrace:
+        /tmp/run.rb:989
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:985
+  Total: 37
+     OK: 32
+     KO: 1
+  Crash: 4
+Warning: 0
+   Skip: 0
+   Time: 0.0 seconds

@@ -1,0 +1,13 @@
+.............................................................X.
+NameError: Array shared from an emptied heap array keeps a buffer => uninitialized constant AryShared
+backtrace:
+        /tmp/run.rb:1272
+        /tmp/run.rb:205:in assert
+        /tmp/run.rb:1264
+  Total: 63
+     OK: 62
+     KO: 0
+  Crash: 1
+Warning: 0
+   Skip: 0
+   Time: 0.03 seconds
