@@ -25,12 +25,6 @@ Ports made with this kit: [SabiRuby](https://github.com/kishima/sabiruby) (Rust)
 
 Issues and reports of ports to other languages are welcome; a response is not promised.
 
-## 日本語
-
-技術同人誌「Deep dive into mruby」の付属物で、mruby 4.1 の VM を別の言語や環境へ移植するための、機械可検証のデータ一式です。
-本文（PDF）とは別に MIT で公開します。使い方は本の「移植の手順」章にあります。`stages.md` はその章の段階表、`fixtures/` と `mrbtest/` は到達点の検査、
-`experiments/` は実際に行った移植の記録です。issue は歓迎しますが、対応は約束しません。
-
 ## License
 
 MIT. See `LICENSE`: the kit is (C) 2019-2026 Kishima Craft Works, and the material derived
