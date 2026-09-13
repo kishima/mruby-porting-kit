@@ -10,4 +10,4 @@ backtrace:
   Crash: 1
 Warning: 0
    Skip: 0
-   Time: 0.03 seconds
+   Time: 0.04 seconds
