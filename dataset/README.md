@@ -18,7 +18,7 @@ mruby 4.1.0 の opcode 1 個 = 1 レコードの JSONL データセットです�
 | `definition` | 本文の「定義」（`R[a] = R[b]` の形。upstream の `ops.h` の表記） |
 | `ops_h_comment` | `include/mruby/ops.h` の該当行のコメント（原文） |
 | `summary` | 本文の「動作」（日本語） |
-| `history` | 本文の「履歴」（例 `1.0.0 から存在`、`4.0.0 で LOADT から改名`） |
+| `history` | 記事のコメント行 `#@# 履歴:`（本文には出ない。例 `1.0.0 から存在`、`4.0.0 で LOADT から改名`） |
 | `since` / `since_tag` | 最初に現れた安定版 / 最初に現れたタグ（`opcode-history.json`） |
 | `removed_at` | 消えたタグ（4.1.0-rc に存在する命令は `null`） |
 | `present_in_4_1_0` | 4.1.0-rc の `ops.h` にあるか |
