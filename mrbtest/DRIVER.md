@@ -25,6 +25,6 @@ Procedure (what `sabiruby mrbtest` and `reference_runner.rb` in this directory d
 One VM per file: the globals `$ok_test` etc. must start at zero. Unimplemented features should raise
 `NotImplementedError` rather than abort, so that `assert` counts them as `Crash` and the file continues.
 
-`reference-results.md` holds the numbers of the reference `mruby` itself (4.1.0-rc, `default` gembox,
+`reference-results.md` holds the numbers of the reference `mruby` itself (4.1.0-rc2, `default` gembox,
 so tests that need mrbgems pass there and may not on a core-only port). It was produced with
 `reference_runner.rb`, a pure-Ruby version of the helpers, by concatenating it with `assert.rb` and the test file.

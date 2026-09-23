@@ -1,4 +1,4 @@
-# mruby と CRuby の違いの実測（第1章）。mruby 4.1.0-rc で実行する
+# mruby と CRuby の違いの実測（第1章）。mruby 4.1.0-rc2 で実行する
 def t(name)
   print "#{name}: "
   yield
@@ -84,3 +84,37 @@ t("destructure default") do
   def f(a, (b, c), d = b); p [a, b, c, d]; end
   f(1, [2, 3])
 end
+t("String#+ redefine") do
+  class String; def +(o); "redefined"; end; end
+  p ["a" + "b", "a".+("b")]
+end
+t("kwarg default refs other") do
+  def g(a, b: a * 2); a + b; end
+  p [g(1), g(2)]
+end
+t("pattern guard/pin/find/alt/deconstruct") do
+  x = 5
+  case [1, 5]
+  in [_, ^x] then p :pin
+  end
+  case 5
+  in Integer => n if n > 3 then p [:guard, n]
+  end
+  case [1, 2, 3, 4, 5]
+  in [*, 3, 4, *] then p :find
+  end
+  case 2
+  in 1 | 2 then p :alt
+  end
+  o = Object.new
+  def o.deconstruct; [1, 2]; end
+  def o.deconstruct_keys(k); {a: 1}; end
+  case o
+  in [a, b] then p [:dec, a, b]
+  end
+  case o
+  in {a:} then p [:deck, a]
+  end
+end
+t("alias global variable") { eval("alias $a $b") }
+

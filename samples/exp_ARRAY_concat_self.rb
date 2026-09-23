@@ -1,4 +1,4 @@
-# ARYCAT / Array#concat で連結元と先が同じ配列のとき（4.1.0-rc）
+# ARYCAT / Array#concat で連結元と先が同じ配列のとき（4.1.0-rc2）
 a = [1, 2]
 a.concat(a)
 p a

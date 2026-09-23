@@ -1,4 +1,4 @@
-# Array#[] / []= の再定義で GETIDX/SETIDX がメソッド呼び出しに切り替わる（4.1.0-rc）
+# Array#[] / []= の再定義で GETIDX/SETIDX がメソッド呼び出しに切り替わる（4.1.0-rc2）
 # 注: Kernel#p は内部で args[i] を使うので、Array#[] を再定義すると p 自体が壊れる。
 #     そのため出力には $stdout.write を使い、配列の inspect も避ける
 def show(x); $stdout.write "#{x.inspect}\n"; end

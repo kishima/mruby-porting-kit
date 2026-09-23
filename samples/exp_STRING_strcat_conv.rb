@@ -1,4 +1,4 @@
-# STRCAT（mrb_str_concat）が非文字列をどう文字列にするか（4.1.0-rc）
+# STRCAT（mrb_str_concat）が非文字列をどう文字列にするか（4.1.0-rc2）
 class Integer
   def to_s(*); "INT"; end
 end

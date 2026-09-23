@@ -1,4 +1,4 @@
-# Proc.new と proc と lambda のフラグの違い（4.1.0-rc）
+# Proc.new と proc と lambda のフラグの違い（4.1.0-rc2）
 def by_new;    Proc.new { |x| x }; end
 def by_proc;   proc { |x| x }; end
 def by_lambda; lambda { |x| x }; end

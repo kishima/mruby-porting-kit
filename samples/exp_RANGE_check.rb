@@ -1,4 +1,4 @@
-# RANGE_INC / RANGE_EXC の値の検査（4.1.0-rc）
+# RANGE_INC / RANGE_EXC の値の検査（4.1.0-rc2）
 class C
   attr_reader :v
   def initialize(v); @v = v; end

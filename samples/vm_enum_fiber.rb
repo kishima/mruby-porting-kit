@@ -16,7 +16,7 @@ probe("each.with_index.map") { [1,2,3].each.with_index.map { |v,i| [v,i] } }
 probe("each_with_object")    { [1,2,3].each_with_object([]) { |v,a| a << v } }
 probe("each_slice")          { [1,2,3,4].each_slice(2).to_a }
 probe("enumerator.to_a")     { [1,2,3].each.to_a }
-probe("lazy.map.first")      { (1..Float::INFINITY).lazy.map { |x| x*2 }.first(3) }
+probe("lazy.map.first")      { (1..).lazy.map { |x| x*2 }.first(3) }
 probe("lazy.take.force")     { (1..Float::INFINITY).lazy.take(3).force }
 probe("enum.next")           { e = [1,2,3].each; [e.next, e.next] }
 probe("enum.peek")           { e = [1,2,3].each; e.peek }

@@ -1,4 +1,4 @@
-# HASH / HASHADD（mrb_hash_set）がユーザ定義の hash と eql? を使うか（4.1.0-rc）
+# HASH / HASHADD（mrb_hash_set）がユーザ定義の hash と eql? を使うか（4.1.0-rc2）
 class K
   attr_reader :n
   def initialize(n); @n = n; end

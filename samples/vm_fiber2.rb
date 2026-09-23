@@ -21,7 +21,8 @@ t("transfer") do
   end
   f2 = Fiber.new { |x| log << [:f2, x]; f1.transfer(:to1) }
   r = f1.transfer(:start)
-  p [log, r, f1.alive?, f2.alive?]
+  p log
+  p [r, f1.alive?, f2.alive?]
 end
 t("yield in transferred") do
   f = Fiber.new { Fiber.yield :y }

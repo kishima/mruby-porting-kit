@@ -1,4 +1,4 @@
-# Reference results (mruby 4.1.0-rc, default gembox)
+# Reference results (mruby 4.1.0-rc2, default gembox)
 
 Produced by `reference_runner.rb` + `assert.rb` + each file on the reference `mruby` (see DRIVER.md).
 Gems are present in the reference binary, so some assertions pass here that need more than the core.
@@ -37,7 +37,7 @@ and tests that need the C fixtures of mruby-test (`env.c`, `vformat.c`, `sysfail
 | gem_range | 4 | 4 | 0 | 0 | 0 | 0 |
 | gem_sprintf | 13 | 10 | 0 | 0 | 0 | 3 |
 | gem_string | 73 | 64 | 0 | 0 | 0 | 9 |
-| hash | 44 | 44 | 0 | 0 | 0 | 0 |
+| hash | 45 | 45 | 0 | 0 | 0 | 0 |
 | indexerror | 1 | 1 | 0 | 0 | 0 | 0 |
 | integer | 41 | 41 | 0 | 0 | 0 | 0 |
 | iterations | 4 | 4 | 0 | 0 | 0 | 0 |
@@ -69,4 +69,4 @@ and tests that need the C fixtures of mruby-test (`env.c`, `vformat.c`, `sysfail
 | unicode | 3 | 3 | 0 | 0 | 0 | 0 |
 | version | 1 | 1 | 0 | 0 | 0 | 0 |
 | vformat | 1 | 0 | 0 | 1 | 0 | 0 |
-| **all** | 1227 | 1185 | 5 | 24 | 0 | 13 |
+| **all** | 1228 | 1186 | 5 | 24 | 0 | 13 |

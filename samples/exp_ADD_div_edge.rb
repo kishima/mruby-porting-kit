@@ -1,4 +1,4 @@
-# DIV の境界（4.1.0-rc, MRB_INT64, MRB_USE_BIGINT）
+# DIV の境界（4.1.0-rc2, MRB_INT64, MRB_USE_BIGINT）
 p 7 / 2, -7 / 2, 7 / -2, -7 / -2       # 切り捨て方向（負の無限大方向）
 x = -9223372036854775808
 p x / -1, (x / -1).class               # INT_MIN / -1
