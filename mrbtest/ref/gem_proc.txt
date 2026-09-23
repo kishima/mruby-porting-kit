@@ -15,4 +15,4 @@ backtrace:
   Crash: 2
 Warning: 0
    Skip: 0
-   Time: 0.0 seconds
+   Time: (omitted: varies per run)

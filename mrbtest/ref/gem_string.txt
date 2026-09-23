@@ -14,4 +14,4 @@ Skip: String#scrub with block
   Crash: 0
 Warning: 0
    Skip: 9
-   Time: 0.0 seconds
+   Time: (omitted: varies per run)

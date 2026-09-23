@@ -1,4 +1,4 @@
-irep 0x55bfae933c90 nregs=14 nlocals=3 pools=2 syms=14 reps=4 ilen=281
+irep 0xADDR nregs=14 nlocals=3 pools=2 syms=14 reps=4 ilen=281
 local variable names:
   R1:h
   R2:e
@@ -101,7 +101,7 @@ file: kwargs.rb
    25 278 RETURN	R3	
    25 280 STOP
 
-irep 0x55bfae938810 nregs=7 nlocals=5 pools=0 syms=2 reps=0 ilen=34
+irep 0xADDR nregs=7 nlocals=5 pools=0 syms=2 reps=0 ilen=34
 local variable names:
   R1:**
   R3:a
@@ -120,7 +120,7 @@ file: kwargs.rb
     2 029 ARRAY		R5	2
     2 032 RETURN	R5	
 
-irep 0x55bfae939300 nregs=15 nlocals=8 pools=0 syms=2 reps=0 ilen=56
+irep 0xADDR nregs=15 nlocals=8 pools=0 syms=2 reps=0 ilen=56
 local variable names:
   R1:x
   R2:y
@@ -149,7 +149,7 @@ file: kwargs.rb
     6 051 ARRAY		R8	6
     6 054 RETURN	R8	
 
-irep 0x55bfae939a70 nregs=6 nlocals=4 pools=1 syms=0 reps=0 ilen=19
+irep 0xADDR nregs=6 nlocals=4 pools=1 syms=0 reps=0 ilen=19
 local variable names:
   R1:s
   R2:i
@@ -162,7 +162,7 @@ file: kwargs.rb
    11 015 STRCAT	R4	(R5)
    11 017 RETURN	R4	
 
-irep 0x55bfae93ae20 nregs=4 nlocals=3 pools=0 syms=0 reps=0 ilen=15
+irep 0xADDR nregs=4 nlocals=3 pools=0 syms=0 reps=0 ilen=15
 local variable names:
   R1:h
 file: kwargs.rb

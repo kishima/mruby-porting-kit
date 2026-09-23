@@ -8,4 +8,4 @@ Skip: what the string sprintf builds claims
   Crash: 0
 Warning: 0
    Skip: 3
-   Time: 0.0 seconds
+   Time: (omitted: varies per run)
